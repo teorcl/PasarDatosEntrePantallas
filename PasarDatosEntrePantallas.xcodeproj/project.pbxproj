@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		ABD50E64290EC05400C903B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD50E63290EC05400C903B5 /* AppDelegate.swift */; };
 		ABD50E66290EC05400C903B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD50E65290EC05400C903B5 /* SceneDelegate.swift */; };
-		ABD50E68290EC05400C903B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD50E67290EC05400C903B5 /* ViewController.swift */; };
 		ABD50E6B290EC05400C903B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD50E69290EC05400C903B5 /* Main.storyboard */; };
 		ABD50E6D290EC05700C903B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD50E6C290EC05700C903B5 /* Assets.xcassets */; };
 		ABD50E70290EC05700C903B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD50E6E290EC05700C903B5 /* LaunchScreen.storyboard */; };
+		ABD50E78290EC0DA00C903B5 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD50E77290EC0DA00C903B5 /* BlueViewController.swift */; };
+		ABD50E7A290ED21300C903B5 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD50E79290ED21300C903B5 /* RedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ABD50E60290EC05400C903B5 /* PasarDatosEntrePantallas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasarDatosEntrePantallas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD50E63290EC05400C903B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABD50E65290EC05400C903B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ABD50E67290EC05400C903B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ABD50E6A290EC05400C903B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABD50E6C290EC05700C903B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABD50E6F290EC05700C903B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABD50E71290EC05700C903B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABD50E77290EC0DA00C903B5 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		ABD50E79290ED21300C903B5 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				ABD50E63290EC05400C903B5 /* AppDelegate.swift */,
 				ABD50E65290EC05400C903B5 /* SceneDelegate.swift */,
-				ABD50E67290EC05400C903B5 /* ViewController.swift */,
 				ABD50E69290EC05400C903B5 /* Main.storyboard */,
 				ABD50E6C290EC05700C903B5 /* Assets.xcassets */,
 				ABD50E6E290EC05700C903B5 /* LaunchScreen.storyboard */,
 				ABD50E71290EC05700C903B5 /* Info.plist */,
+				ABD50E77290EC0DA00C903B5 /* BlueViewController.swift */,
+				ABD50E79290ED21300C903B5 /* RedViewController.swift */,
 			);
 			path = PasarDatosEntrePantallas;
 			sourceTree = "<group>";
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABD50E68290EC05400C903B5 /* ViewController.swift in Sources */,
+				ABD50E7A290ED21300C903B5 /* RedViewController.swift in Sources */,
 				ABD50E64290EC05400C903B5 /* AppDelegate.swift in Sources */,
+				ABD50E78290EC0DA00C903B5 /* BlueViewController.swift in Sources */,
 				ABD50E66290EC05400C903B5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
